@@ -4,25 +4,25 @@ LeNet-5
 ## __Simple implementation of LeNet-5 by Pytorch__
 
 
-* __train__
+* ####__train__
 
 ```
   python3 LeNet.py --mode train --epoch 20 --lr 0.1 --download True --optim SGD --momentum 0.0
 ```
 
-mode : 'train' or 'test' mode.
+__mode__ : 'train' or 'test' mode.
 
-epoch : total epoch of train.
+__epoch__ : total epoch of train.
 
-lr : learning rate.
+__lr__ : learning rate.
 
-download : If True, train and test data are downloaded by torchvision.
+__download__ : If True, train and test data are downloaded by torchvision.
 
-optim : optimizer. 'SGD' or 'ADAM'
+__optim__ : optimizer. 'SGD' or 'ADAM'
 
-momentum : momentum parameter in SGD optimizer.
+__momentum__ : momentum parameter in SGD optimizer.
 
-* __test__
+* ####__test__
 
 ```
   python3 LeNet.py --mode test --download True
