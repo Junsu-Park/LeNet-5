@@ -1,2 +1,1 @@
-# Pytorch
-Deep learning implementation by Pytorch
+# LeNet-5 Implementation by Pytorch
