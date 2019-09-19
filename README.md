@@ -1,8 +1,8 @@
-LeNet-5
-=======
+# LeNet-5
+==========
 ![Architecture](./images/LeNet-5_Architecture.JPG)
-## __Simple implementation of LeNet-5 by Pytorch__
-
+# __Simple implementation of LeNet-5 by Pytorch__
+-------------------------------------------------
 
 ### - __train__
 
