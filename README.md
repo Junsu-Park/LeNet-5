@@ -4,7 +4,7 @@ LeNet-5
 ## __Simple implementation of LeNet-5 by Pytorch__
 
 
-#### * __train__
+### - __train__
 
 ```
   python3 LeNet.py --mode train --epoch 20 --lr 0.1 --download True --optim SGD --momentum 0.0
@@ -22,7 +22,7 @@ __optim__ : optimizer. 'SGD' or 'ADAM'
 
 __momentum__ : momentum parameter in SGD optimizer.
 
-#### * __test__
+### - __test__
 
 ```
   python3 LeNet.py --mode test --download True
