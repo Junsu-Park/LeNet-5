@@ -10,9 +10,9 @@ LeNet-5
   python3 LeNet.py --mode train --epoch 20 --lr 0.1 --download True --optim SGD --momentum 0.0
 ```
 
-mode : 'train' or 'test' mode.
-epoch : total epoch of train.
-lr : learning rate.
+mode : 'train' or 'test' mode.\n
+epoch : total epoch of train.\n
+lr : learning rate.\n
 download : If True, train and test data are downloaded by torchvision.
 optim : optimizer. 'SGD' or 'ADAM'
 momentum : momentum parameter in SGD optimizer.
@@ -22,4 +22,4 @@ momentum : momentum parameter in SGD optimizer.
 ```
   python3 LeNet.py --mode test --download True
 ```
-when I trained this model by 20 epoch, I got __98.56__ accuracy.
+when I trained this model by 20 epoch, I got __98.56%__ accuracy.
