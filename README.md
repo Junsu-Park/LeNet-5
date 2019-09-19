@@ -11,6 +11,8 @@ LeNet-5
 ```
 
 
+
+
 __mode__ : 'train' or 'test' mode.
 
 __epoch__ : total epoch of train.
@@ -24,11 +26,15 @@ __optim__ : optimizer. 'SGD' or 'ADAM'
 __momentum__ : momentum parameter in SGD optimizer.
 
 
+
+
 ### - __test__
 
 ```
   python3 LeNet.py --mode test --download True
 ```
+
+
 
 
 when I trained this model by 20 epoch, I got __98.56%__ accuracy.
