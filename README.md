@@ -6,7 +6,7 @@ LeNet-5
 
 * training
 
-```python
+```
   python3 LeNet.py --mode train --epoch 20 --lr 0.1 --download True --optim SGD --momentum 0.0
 ```
 
