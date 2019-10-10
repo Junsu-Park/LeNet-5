@@ -4,6 +4,8 @@ LeNet-5
 # __Simple implementation of LeNet-5 by Pytorch__
 
 
+LiNK : <http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf>
+
 ### - __train__
 
 ```
